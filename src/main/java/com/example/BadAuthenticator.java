@@ -9,9 +9,9 @@ public class BadAuthenticator {
 
     public void authenticate(String userType, String username) {
         if (userType.equals("admin")) {
-            System.out.println("Auth admin") // ERROR
+            System.out.println("Auth admin")
         } else if (userType.equals("guest")) {
-            System.out.println("Auth guest");
+            System.out.pri("Auth guest")
         }
         
         // This won't compile because List isn't imported
