@@ -22,7 +22,7 @@ public class BadAuthenticator {
     }
 
     private void sendEmail(String username) {
-        // Doing email sending inside an authenticator
+        // Doing email sending inside an
         System.out.println("Sending email to " + username);
     }
 }
